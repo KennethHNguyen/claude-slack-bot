@@ -145,3 +145,7 @@ security delete-generic-password -s claude-slack-bot -a app-token
 rm -rf ~/claude-slack-bot
 ```
 Then delete the app at **https://api.slack.com/apps**: open the app, then **Basic Information**, then **Delete App**.
+
+## Feedback
+
+Questions of ideas? Open an issue on this repo.
