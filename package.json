@@ -1,0 +1,26 @@
+{
+  "name": "claude-slack-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal Slack DM bot that relays your prompts to Claude Code running on your own Mac.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "./start.sh",
+    "setup": "./setup.sh",
+    "doctor": "./doctor.sh",
+    "manifest": "./make-manifest.sh",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "0.3.326",
+    "@slack/bolt": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  }
+}

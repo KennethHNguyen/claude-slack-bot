@@ -1,0 +1,12 @@
+{
+  "allowedSlackUserId": "U0XXXXXXXXX",
+  "botName": "your Mac",
+  "defaultCwd": "~",
+  "allowedRoots": ["~"],
+  "permissionMode": "default",
+  "mcpAlwaysAsk": true,
+  "mcpWaitFor": [],
+  "idleShutdownHours": 8,
+  "threadIdleMinutes": 30,
+  "approvalTimeoutMinutes": 15
+}
